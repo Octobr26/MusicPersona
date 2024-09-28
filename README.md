@@ -1,5 +1,5 @@
 authors:
 
--   luis diaz
+- luis diaz
 - aileen kim
-- test
+- Keanu Choe
