@@ -1,3 +1,4 @@
 authors:
 
--   luis diaz
+- luis diaz
+- Keanu Choe
