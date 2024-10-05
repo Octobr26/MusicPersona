@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>MusicPersona</title>
+        <style>
+            body {
+                font-family: "Press Start 2P", cursive; /* 32-bit style font */
+                background-color: #121212; /* Spotify black */
+                color: #fff;
+                margin: 0;
+                padding: 0;
+            }
+
+            h1 {
+                color: #1db954; /* Spotify green */
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+            }
+
+            .quiz-box {
+                background-color: #282828; /* Spotify dark gray */
+                border: 2px solid #1db954;
+                padding: 20px;
+                border-radius: 10px;
+                width: 80%;
+                max-width: 500px;
+                text-align: center;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            button {
+                background-color: #1db954;
+                color: white;
+                border: none;
+                padding: 10px 20px;
+                font-size: 16px;
+                cursor: pointer;
+                border-radius: 5px;
+                margin-top: 20px;
+                transition: background-color 0.3s ease;
+            }
+
+            button:hover {
+                background-color: #1ed760;
+            }
+
+            /* Style for 32-bit buttons */
+            button:active {
+                transform: scale(0.95);
+            }
+
+            /* Responsive */
+            @media (max-width: 768px) {
+                .quiz-box {
+                    width: 90%;
+                }
+            }
+        </style>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+            rel="stylesheet"
+        />
+        <!-- 32-bit style font -->
+    </head>
+    <body>
+        <div class="container">
+            <h1>MusicPersona Quiz</h1>
+            <div class="quiz-box">
+                <p>
+                    Discover your song based on your personality! Answer the
+                    questions below.
+                </p>
+                <button>Start Quiz</button>
+            </div>
+        </div>
+    </body>
+</html>
